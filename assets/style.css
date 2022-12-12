@@ -1,8 +1,57 @@
 body {
     background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.navbar {
+    display: inline;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image-section {
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 200px;
+}
+
+
+figcaption {
+    text-align: center;
+    color: crimson;
+}
+
+form {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+footer {
+    text-align: center;
+}
+
+#green-button {
+    background-color: green;
+    box-shadow: 5px 5px;
 }

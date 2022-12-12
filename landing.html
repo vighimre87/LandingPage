@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Project Landing Page</title>
 </head>
 <body>
-    <h1>This is a landing page!</h1>
-    <header>Hello, World!</header>
-    <section>
-        <figure><img src="Xmas_tree.jpg" alt="A Christmas tree with presents"></figure>
+    <header id="top">
+        <nav class="navbar">
+            <a href="#top">Back to the top</a>
+            <a href="#christmas">Merry Christmas!</a>
+            <a href="#contact">Contact us</a>
+        </nav>
+    </header>
+    <h1>Hello, World! This is the landing page of my mini project!</h1>
+    <h2>It is a playground for my experiments.</h2>
+    <section class="section1" id="christmas">
+        <h2 id="green-text">It is not really pretty but pass the tests.</h2>
+    </section>
+    <section class="image-section">
+        <figure><img src="assets/Xmas_tree.jpg" alt="A Christmas tree with presents"></figure>
         <figcaption>Fig. 1 - Have a Merry Christmas to everyone!</figcaption>
     </section>
-    <form>
+    <form id="contact">
+        <h2>Contact us:</h2>
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value=""><br>
         <label for="lname">Last name:</label><br>
@@ -23,10 +34,11 @@
         <input type="text" id="email" name="email" value=""><br>
         <label for="phone">Telephone number:</label><br>
         <input type="text" id="phone" name="phone" value=""><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Send" id="green-button">
     </form>
     <footer>
-        Made with love by me
+        <p>Author: Imre Vigh</p>
+        <p><a href="mailto:imre.vigh@superfastmail.com"></a></p>
     </footer>
 </body>
 </html>
