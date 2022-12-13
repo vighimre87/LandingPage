@@ -4,7 +4,7 @@ body {
     font-size: 18px;
 }
 
-.navbar {
+header {
     display: inline;
     overflow: hidden;
     position: fixed;
